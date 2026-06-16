@@ -32,7 +32,7 @@ pip3 install -r requirements.txt
 ```
 5. Copy and replace the DDJ-SX Mapping in Rekordbox' installation folder with the files found in "pioneer_mappings"
 ```bash
-MACOSPATH_HERE
+cp "pioneer_mappings/PIONEER DDJ-SX.midi.csv" "/Applications/rekordbox 7/rekordbox.app/Contents/Resources/MidiMappings/PIONEER DDJ-SX.midi.csv"
 ```
 
 ## Installation Windows
