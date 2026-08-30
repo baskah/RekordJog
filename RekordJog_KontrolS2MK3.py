@@ -119,9 +119,9 @@ BROWSE_CODES = {
 # Set to None to disable; set to the S2 note number once identified.
 BROWSE_PRESS_NOTE = None  # e.g. 0x1D or whatever note is sent on Ch1/Ch3
 
-# Load buttons — set to the S2 note once identified via debug output.
+# Load button (S2 browse-encoder press, note 0x18) — identified and confirmed.
 # DDJ-SX: ch6 Note 0x46 (Deck A), ch6 Note 0x47 (Deck B)
-LOAD_NOTE = 0x18   # Browse encoder press → Load track into deck
+LOAD_NOTE = 0x18  # S2 browse-encoder press → Load track into deck
 
 # ---------------------------------------------------------------------------
 # Mixer faders/knobs  (S2: CC on Ch5=left, Ch6=right, absolute 0-127)
